@@ -218,7 +218,7 @@ It's a cache of downloaded dependencies on your machine, stored in the following
 - macOS: `/Users/YourUsername/.m2`
 
 The local repository saves time by reusing dependencies across builds.
-Note: when you run `mvn install`, all the dependencies will also be stored in this local folder.
+> Note: when you run `mvn install`, all the dependencies will also be stored in this local folder.
 
 ### Remote Repository
 
