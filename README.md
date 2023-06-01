@@ -169,12 +169,12 @@ In the default lifecycle, two important phases are:
 The Build Lifecycle provides a standardized and consistent approach to building projects with Maven, automating common build tasks. Developers can customize and extend the lifecycle by configuring plugins and binding them to specific phases as needed.
 
 NOTE:
-In Maven, running `mvn install` compiles the code, runs tests, packages the project, and installs the artifact into the local repository.
-On the other hand, `mvn clean install` performs a clean build by removing previous build artifacts before executing the remaining phases.
-The `clean` phase ensures a fresh build without any interference from previous artifacts.
-Running `mvn install` assumes previous artifacts are valid, saving time during subsequent builds.
-Choose `mvn clean install` when you want a clean build or have made changes to project configuration, dependencies, or build scripts.
-Choose `mvn install` when you know previous artifacts are up to date and do not need to be cleaned or rebuilt.
+- In Maven, running `mvn install` compiles the code, runs tests, packages the project, and installs the artifact into the local repository.
+- On the other hand, `mvn clean install` performs a clean build by removing previous build artifacts before executing the remaining phases.
+- The `clean` phase ensures a fresh build without any interference from previous artifacts.
+- Running `mvn install` assumes previous artifacts are valid, saving time during subsequent builds.
+- Choose `mvn clean install` when you want a clean build or have made changes to project configuration, dependencies, or build scripts.
+- Choose `mvn install` when you know previous artifacts are up to date and do not need to be cleaned or rebuilt.
 
 ## Plugins and Goals
 
