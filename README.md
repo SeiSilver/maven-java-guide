@@ -1,5 +1,6 @@
-# Project Name
-[Insert project description here.]
+# Maven Java Guide
+
+For the docs guide you can read the *MAVEN_GUIDE.md*
 
 ## Getting Started
 To run the code in local with Docker-Compose, please follow these steps:
@@ -47,12 +48,3 @@ Docker-Compose
     docker-compose down -v
     ```
 This will stop and remove all the containers, networks, and volumes created by Docker-Compose.
-
-### Contributing
-[Insert contribution guidelines here.]
-
-### License
-[Insert license information here.]
-
-### Acknowledgments
-[Insert acknowledgments here.]

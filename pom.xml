@@ -10,10 +10,10 @@
   </parent>
 
   <groupId>com.spring.template.silver.app</groupId>
-  <artifactId>spring-boot-template</artifactId>
+  <artifactId>maven-java-guide</artifactId>
   <version>1.0.0</version>
-  <name>spring-boot-template</name>
-  <description>spring boot template</description>
+  <name>maven-java-guide</name>
+  <description>Maven java guide</description>
 
   <properties>
     <java.version>17</java.version>
